@@ -1,0 +1,11 @@
+@font-face {
+  font-family: font;
+  src: url(./Assets/Fonts/font.otf);
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #131e21;
+  color: #dcfaf8;
+}
