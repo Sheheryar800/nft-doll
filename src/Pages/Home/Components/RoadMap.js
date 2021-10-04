@@ -5,26 +5,50 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const useStyles = makeStyles({
     root: {
-        
+        '& li':{
+            backgroundColor: '#0d5b4d',
+            padding: '1px 20px 5px 20px',
+            borderRadius: '15px',
+            marginBottom: '15px'
+        }
     },
     avatar:{
-        padding: '7px',
-        color: '#131e21 !important',
-        backgroundColor: '#dcfaf8 !important',
+        padding: '9px',
+        color: '#ffbc00 !important',
+        backgroundColor: '#131e21 !important',
         marginRight: '10px',
     }
 })
 
 function RoadMap() {
     const classes = useStyles()
+    AOS.init()
     return (
         <div className={classes.root}>
-            <h1>ROADMAP</h1>
+            <h1
+                data-aos="fade-in"
+                data-aos-offset="-50"
+                data-aos-duration="1000"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+            >ROADMAP</h1>
             <List sx={{ width: '100%'}}>
-                <ListItem>
+                <ListItem 
+                    data-aos="fade-in"
+                    data-aos-offset="-50"
+                    data-aos-duration="1000"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-center"
+                    className='list'
+                >
                     <ListItemAvatar>
                     <Avatar className={classes.avatar}>
                         25%
@@ -35,7 +59,14 @@ function RoadMap() {
                         <p>More aggressive marketing</p>
                     </ListItemText>
                 </ListItem>
-                <ListItem>
+                <ListItem
+                    data-aos="fade-in"
+                    data-aos-offset="-50"
+                    data-aos-duration="1000"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-center"
+                >
                     <ListItemAvatar>
                     <Avatar className={classes.avatar}>
                         50%
@@ -46,7 +77,14 @@ function RoadMap() {
                         <p>Readoption of $10,000 worth of apes.</p>
                     </ListItemText>
                 </ListItem>
-                <ListItem>
+                <ListItem
+                    data-aos="fade-in"
+                    data-aos-offset="-50"
+                    data-aos-duration="1000"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-center"
+                >
                     <ListItemAvatar>
                     <Avatar className={classes.avatar}>
                         75%
@@ -59,7 +97,14 @@ function RoadMap() {
                         <p>Add money to community wallet for game launch.</p>
                     </ListItemText>
                 </ListItem>
-                <ListItem>
+                <ListItem
+                    data-aos="fade-in"
+                    data-aos-offset="50"
+                    data-aos-duration="1000"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-center"
+                >
                     <ListItemAvatar>
                     <Avatar className={classes.avatar}>
                         100%
