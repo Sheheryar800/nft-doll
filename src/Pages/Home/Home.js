@@ -7,6 +7,7 @@ import { createMuiTheme } from '@material-ui/core/styles';
 import RoadMap from './Components/RoadMap';
 import FAQ from './Components/FAQ';
 import Team from './Components/Team';
+import Wallet from './Components/Wallet';
 
 const theme = createMuiTheme();
 
@@ -28,6 +29,7 @@ function Home() {
         <div>
             <TopView />
             <div className={classes.root}>
+                {/* <Wallet /> */}
                 <Planned />
                 <SaveTheApes />
                 <RoadMap />

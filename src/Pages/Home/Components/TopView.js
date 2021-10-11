@@ -42,7 +42,7 @@ const useStyles = makeStyles({
                 width: '50%',
             },
         },
-        '& button':{
+        '& a':{
             fontSize: '20px',
             backgroundColor: '#131e21',
             color: '#ffbc00',
@@ -99,7 +99,7 @@ function TopView() {
                     <br />
                     <img src={gif} alt='' />
                     <br />
-                    <Button>MINT A LOST APE</Button>
+                    <Button href='https://lostapes.art/mint'>MINT A LOST APE</Button>
                 </div>
                 <div className={classes.monkey}>
                     <img src={leftMonkey} alt=''/>
