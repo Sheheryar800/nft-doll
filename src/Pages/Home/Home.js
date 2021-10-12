@@ -30,8 +30,8 @@ function Home() {
             <TopView />
             <div className={classes.root}>
                 {/* <Wallet /> */}
-                <Planned />
                 <SaveTheApes />
+                <Planned />
                 <RoadMap />
                 <FAQ />
                 <Team />
