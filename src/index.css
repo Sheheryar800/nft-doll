@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: projectFont;
-  src: url(./Assets/Fonts/NortRightPresonalUse-WyajA.otf);
+  src: url(./Assets/Fonts/WoodpeckerDemo-w1ljn.otf);
 }
 body {
   margin: 0;
@@ -17,6 +17,9 @@ body {
 .changeFont{
   /* font-family: projectFont !important; */
 }
-button, h1, h2, span, div{
+button, span, div{
   font-family: font !important;
+}
+h1, h2{
+  font-family: projectFont !important;
 }
