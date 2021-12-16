@@ -15,7 +15,7 @@ body {
   font-family: font !important;
 }
 .changeFont{
-  /* font-family: projectFont !important; */
+  font-family: projectFont !important;
 }
 button, span, div{
   font-family: font !important;
