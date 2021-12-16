@@ -12,7 +12,7 @@ import 'aos/dist/aos.css';
 const useStyles = makeStyles({
     root: {
         '& li':{
-            backgroundColor: '#191936',
+            backgroundColor: '#00000087',
             padding: '1px 20px 5px 20px',
             borderRadius: '15px',
             marginBottom: '15px'

@@ -39,7 +39,7 @@ const useStyles = makeStyles({
             },
         },
         '& .div':{
-            backgroundColor: '#191936',
+            backgroundColor: '#00000087',
             borderRadius: '15px',
         },
     },
