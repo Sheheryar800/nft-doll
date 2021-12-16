@@ -1,18 +1,15 @@
 import { makeStyles } from '@material-ui/styles';
 import { createMuiTheme } from '@material-ui/core/styles';
 import React from 'react';
-import bg from '../../../Assets/Images/BACKGROUNDS 2000x3000/Doll_Face_Preview.mp4';
+import video from '../../../Assets/Images/BACKGROUNDS 2000x3000/Doll_Face_Preview.mp4';
 import logo from '../../../Assets/Images/bishopbd-attachments/photo_2021-11-24_10-18-46.png'
+import bg from '../../../Assets/Images/BACKGROUNDS 2000x3000/backOUTSIDEdoll.png'
 import { Grid } from '@material-ui/core';
 
 const theme = createMuiTheme();
 
 const useStyles = makeStyles({
     root: {
-        // backgroundImage: `url(${bg})`,
-        // backgroundRepeat: 'no-repeat',
-        // backgroundSize: 'cover',
-        // backgroundPosition: 'center',
         height: '100vh',
         width: '100%',
         display: 'flex',
@@ -26,6 +23,10 @@ const useStyles = makeStyles({
         },
     },
     logo: {
+        backgroundImage: `url(${bg})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
         textAlign: 'center',
         width: '100%',
         backgroundColor: '#00000087',
@@ -48,7 +49,7 @@ function TopView() {
             <Grid container>
                 <Grid item xs={12} md={6}>
                     <video autoplay muted loop controls className={classes.video} style={{width: '100%', height: '100vh'}}>
-                        <source src={bg} type='video/mp4 ' />
+                        <source src={video} type='video/mp4 ' />
                     </video>
                 </Grid>
                 <Grid item xs={12} md={6}>
