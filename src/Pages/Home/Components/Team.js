@@ -179,16 +179,6 @@ function Team() {
                     <img src={social4} alt='' />
                 </a>
             </div>
-            <div className={classes.copy}
-                data-aos="fade-in"
-                data-aos-offset="-400"
-                data-aos-duration="1000"
-                data-aos-mirror="true"
-                data-aos-once="false"
-                data-aos-anchor-placement="top-center"
-            >
-                <span>&copy;</span> copyright: 2021 Lost Apes
-            </div>
         </div>
     )
 }
