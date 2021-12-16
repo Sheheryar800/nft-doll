@@ -1,15 +1,15 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/styles';
 import { createMuiTheme } from '@material-ui/core/styles';
-import img1 from '../../../Assets/Images/Team/AperahamLincoln.jpg';
-import img2 from '../../../Assets/Images/Team/LeonardoDeMonke.jpg';
-import img3 from '../../../Assets/Images/Team/DwapeJohnson.jpg';
-import img4 from '../../../Assets/Images/Team/Apricot.jpg';
+import img1 from '../../../Assets/Images/bishopbd-attachments/photo_2021-11-22_09-04-32.jpg';
+import img2 from '../../../Assets/Images/bishopbd-attachments/photo_2021-11-22_09-04-33.jpg';
+import img3 from '../../../Assets/Images/bishopbd-attachments/photo_2021-11-25_07-12-15 (2).jpg';
+import img4 from '../../../Assets/Images/bishopbd-attachments/photo_2021-11-24_04-30-47 (2).jpg';
 
-import social1 from '../../../Assets/Images/Team/twitter.png';
-import social2 from '../../../Assets/Images/Team/discord.png';
-import social3 from '../../../Assets/Images/Team/opensea.png';
-import social4 from '../../../Assets/Images/Team/etherscan.png';
+import social1 from '../../../Assets/Images/social/twitter.png';
+import social2 from '../../../Assets/Images/social/discord.png';
+import social3 from '../../../Assets/Images/social/opensea.png';
+import social4 from '../../../Assets/Images/social/etherscan.png';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -90,7 +90,7 @@ function Team() {
                     data-aos-anchor-placement="top-center"
                 >
                     <img src={img1} alt='' />
-                    <h3>Aperaham Lincoln</h3>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
                     <p>Developer</p>
                 </div>
                 <div
@@ -103,7 +103,7 @@ function Team() {
                     data-aos-anchor-placement="top-center"
                 >
                     <img src={img2} alt='' />
-                    <h3>Leonardo Da Monke</h3>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
                     <p>Artist</p>
                 </div>
                 <div
@@ -116,7 +116,7 @@ function Team() {
                     data-aos-anchor-placement="top-center"
                 >
                     <img src={img3} alt='' />
-                    <h3>Dwape Johnson</h3>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
                     <p>Marketer</p>
                 </div>
                 <div
@@ -129,12 +129,12 @@ function Team() {
                     data-aos-anchor-placement="top-center"
                 >
                     <img src={img4} alt='' />
-                    <h3>Apericot</h3>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
                     <p>Researcher</p>
                 </div>
             </div>
             <div className={classes.icons}>
-                <a href='https://twitter.com/lostapes_nft?s=21'
+                <a href='#'
                     data-aos="fade-in"
                     data-aos-offset="-400"
                     data-aos-delay="0"
@@ -145,7 +145,7 @@ function Team() {
                 >
                     <img src={social1} alt='' />
                 </a>
-                <a href='discord.com/invite/thyjT45Z'
+                <a href='#'
                     data-aos="fade-in"
                     data-aos-offset="-400"
                     data-aos-delay="300"
@@ -156,7 +156,7 @@ function Team() {
                 >
                     <img src={social2} alt='' />
                 </a>
-                <a href='https://Opensea.com'
+                <a href='#'
                     data-aos="fade-in"
                     data-aos-offset="-400"
                     data-aos-delay="600"
@@ -167,7 +167,7 @@ function Team() {
                 >
                     <img src={social3} alt='' />
                 </a>
-                <a href='https://etherscan.io'
+                <a href='#'
                     data-aos="fade-in"
                     data-aos-offset="-400"
                     data-aos-delay="900"

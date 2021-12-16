@@ -1,14 +1,10 @@
 import { makeStyles } from '@material-ui/styles';
 import { createMuiTheme } from '@material-ui/core/styles';
 import React from 'react';
-import bg from '../../../Assets/Images/Minting Section/background.jpg';
-import logo from '../../../Assets/Images/Minting Section/Lost Apes Logo.png';
-import leftMonkey from '../../../Assets/Images/Minting Section/Monkey1.png';
-import rightMonkey from '../../../Assets/Images/Minting Section/Monkey2.png';
-import gif from '../../../Assets/Images/Minting Section/preview.gif'
-import { Button } from '@material-ui/core';
-// import branch1 from '../../../Assets/Images/Minting Section/branch1.png'
-import branch2 from '../../../Assets/Images/Minting Section/branch2.png'
+import bg from '../../../Assets/Images/BACKGROUNDS 2000x3000/backOUTSIDEdoll.png';
+import leftMonkey from '../../../Assets/Images/bishopbd-attachments/photo_2021-11-22_09-04-32.jpg';
+import rightMonkey from '../../../Assets/Images/bishopbd-attachments/photo_2021-11-22_09-04-33.jpg';
+import gif from '../../../Assets/Images/bishopbd-attachments/photo_2021-11-25_07-12-15 (2).jpg'
 
 const theme = createMuiTheme();
 
@@ -20,11 +16,24 @@ const useStyles = makeStyles({
         backgroundPosition: 'center',
         height: '100vh',
         width: '100%',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
     },
     logo: {
         textAlign: 'center',
+        width: '50%',
+        backgroundColor: '#00000087',
+        padding: '30px',
+        borderRadius: '20px',
+        [theme.breakpoints.down('md')]: {
+            width: '60%',
+        },
+        [theme.breakpoints.down('sm')]: {
+            width: '70%',
+        },
         [theme.breakpoints.down('xs')]: {
-            paddingTop: '50px'
+            width: '80%',
         },
         '& img:first-child': {
             width: '50%',
@@ -80,31 +89,23 @@ const useStyles = makeStyles({
             },
         },
     },
-    branch: {
-        backgroundImage: `url(${branch2})`,
-        backgroundRepeat: 'repeat',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        height: '100%',
-        width: '100%',
-    },
 })
 function TopView() {
     const classes = useStyles()
     return (
         <div className={classes.root}>
-            <div className={classes.branch}>
-                <div className={classes.logo}>
-                    <img src={logo} alt='' />
-                    <br />
-                    <img src={gif} alt='' />
-                    <br />
-                    <Button href='https://lostapes.art/mint'>MINT A LOST APE</Button>
-                </div>
-                <div className={classes.monkey}>
-                    <img src={leftMonkey} alt=''/>
-                    <img src={rightMonkey} alt=''/>
-                </div>
+            <div className={classes.logo}>
+                {/* <img src={logo} alt='' /> */}
+                <br />
+                <img src={gif} alt='' width={'300'} />
+                {/* <br /> */}
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vulputate turpis. Mauris eros lacus, tristique quis sollicitudin ac, venenatis sit amet diam. Vivamus maximus metus eu turpis accumsan, vel aliquam nulla varius. Ut aliquet nulla vel sem tempus, in convallis elit convallis. In gravida tincidunt ipsum a ornare. Morbi dignissim et sem nec scelerisque. Integer semper volutpat quam, vitae rutrum dui efficitur id. Suspendisse fermentum neque odio, sollicitudin iaculis arcu iaculis at. In cursus pulvinar turpis, vel gravida leo accumsan eget. Sed vel mauris sem. Sed non cursus velit.</p>
+                {/* <Button href='https://lostapes.art/mint'>MINT A LOST APE</Button> */}
+            </div>
+            <div className={classes.monkey}>
+                {/* <img src={leftMonkey} alt=''/>
+                <img src={rightMonkey} alt=''/> */}
             </div>
         </div>
     )

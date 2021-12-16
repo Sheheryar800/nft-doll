@@ -12,7 +12,7 @@ import 'aos/dist/aos.css';
 const useStyles = makeStyles({
     root: {
         '& li':{
-            backgroundColor: '#0d5b4d',
+            backgroundColor: '#191936',
             padding: '1px 20px 5px 20px',
             borderRadius: '15px',
             marginBottom: '15px'
@@ -20,8 +20,8 @@ const useStyles = makeStyles({
     },
     avatar:{
         padding: '9px',
-        color: '#ffbc00 !important',
-        backgroundColor: '#131e21 !important',
+        color: '#0d5b4d !important',
+        backgroundColor: '#0a0a0a !important',
         marginRight: '10px',
     }
 })
@@ -55,8 +55,7 @@ function RoadMap() {
                     </Avatar>
                     </ListItemAvatar>
                     <ListItemText >
-                        <p>Random Airdrop of NFT's</p>
-                        <p>More aggressive marketing</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin tellus at tempor semper. Aliquam ut dui ex. Ut ac.</p>
                     </ListItemText>
                 </ListItem>
                 <ListItem
@@ -73,8 +72,8 @@ function RoadMap() {
                     </Avatar>
                     </ListItemAvatar>
                     <ListItemText >
-                        <p>Preview of the game</p>
-                        <p>Readoption of $10,000 worth of apes.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin tellus at tempor semper. Aliquam ut dui ex. Ut ac.</p>
+                        <p>Nam accumsan magna sed lectus fringilla, a dapibus ante ornare.</p>
                     </ListItemText>
                 </ListItem>
                 <ListItem
@@ -91,10 +90,9 @@ function RoadMap() {
                     </Avatar>
                     </ListItemAvatar>
                     <ListItemText >
-                        <p>Second drop of Lost Apes</p>
-                        <p>Merch roll out begins</p>
-                        <p>Updated game teaser</p>
-                        <p>Add money to community wallet for game launch.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin tellus at tempor semper. Aliquam ut dui ex. Ut ac.</p>
+                        <p>Aenean aliquam erat eu finibus mollis.</p>
+                        <p>Vivamus convallis nisl at nibh tincidunt, sed volutpat eros rhoncus.</p>
                     </ListItemText>
                 </ListItem>
                 <ListItem
@@ -111,9 +109,10 @@ function RoadMap() {
                     </Avatar>
                     </ListItemAvatar>
                     <ListItemText >
-                        <p>Release of game (lost apes price sky rockets)</p>
-                        <p>All apes are rehoused </p>
-                        <p>Day one holders receive a special surprise ;)</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin tellus at tempor semper. Aliquam ut dui ex. Ut ac.</p>
+                        <p>Proin quis magna interdum, porta massa a, cursus diam.</p>
+                        <p>Donec rutrum lectus vel augue efficitur tristique.</p>
+                        <p>Fusce in metus tincidunt, ornare libero a, consequat nulla.</p>
                     </ListItemText>
                 </ListItem>
             </List>

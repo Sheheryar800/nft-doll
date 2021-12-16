@@ -1,9 +1,9 @@
 import React from "react";
 import { makeStyles } from '@material-ui/styles';
 import { createMuiTheme } from '@material-ui/core/styles';
-import img1 from '../../../Assets/Images/What do we have planned/1.png';
-import img2 from '../../../Assets/Images/What do we have planned/2.png';
-import img3 from '../../../Assets/Images/What do we have planned/3.png';
+import img1 from '../../../Assets/Images/bishopbd-attachments/photo_2021-11-24_04-30-47 (2).jpg';
+import img2 from '../../../Assets/Images/bishopbd-attachments/photo_2021-11-25_07-12-15 (2).jpg';
+import img3 from '../../../Assets/Images/bishopbd-attachments/photo_2021-11-25_07-12-14.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -31,7 +31,7 @@ const useStyles = makeStyles({
             },
         },
         '& .div':{
-            backgroundColor: '#0d5b4d',
+            backgroundColor: '#191936',
             padding: '1px 20px 20px 20px',
             borderRadius: '15px',
             marginBottom: '25px'
@@ -68,9 +68,8 @@ function Planned() {
                 data-aos-anchor-placement="top-center"
                 className='div changeFont'
             >
-                <h2>The Project:</h2>
-                <p>Founded by a dedicated and passionate team, lost apes is most certainly the cutest NFT drop on the blockchain. We aim to ensure Harambe’s legacy lives on forever by making Lost Apes one of the most unforgettable NFT collection projects in the meta-verse, dedicated to the great gorilla.</p>
-                <p>Along this journey, we will build a loving community of new Lost Ape adopters, and together we can bring to life the end goal of this project.</p>
+                <h2>Title:</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta ipsum vitae egestas gravida. Aliquam rutrum tempus lorem et feugiat. Nulla sit amet luctus purus, vitae convallis felis. Praesent enim dolor, ultrices eget aliquet nec, tincidunt sit amet magna. Quisque vehicula tellus et massa porttitor, ultrices rhoncus turpis vulputate. Duis nec feugiat mauris, id elementum turpis. Donec eget elementum felis. Phasellus in elementum nibh, ut aliquet ipsum. Vestibulum congue porttitor nunc ut sodales. Pellentesque placerat sollicitudin lorem, nec iaculis urna semper ut. Aenean auctor, nibh ac tempus faucibus, velit urna eleifend risus, id viverra est eros vitae nisi.</p>
             </div>
             <div
                 data-aos="fade-in"
@@ -81,10 +80,8 @@ function Planned() {
                 data-aos-anchor-placement="top-center"
                 className='div'
             >
-                <h2>The Game:</h2>
-                <p>The final milestone for this project is to create & release our own game application. In-which, we incorporate the power of the ERC-721 ecosystem and reward Lost Ape owners with the luxury of tending to their new babies and earning rewards from the community wallet pool while doing so. We have hired skilled third party developers who are in the process of bringing this idea to life and we will keep the community updated!</p>
-                <p>Only 7,000 Lost Apes will ever be released, within two stages, and the game will be exclusive to Lost Ape NFT owners. So make sure you mint yours!</p>
-                <p>More details on the game and it’s features will be released as our community grows and the Lost Apes get adopted, without parents there’s nobody to look after them!</p>
+                <h2>Title:</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta ipsum vitae egestas gravida. Aliquam rutrum tempus lorem et feugiat. Nulla sit amet luctus purus, vitae convallis felis. Praesent enim dolor, ultrices eget aliquet nec, tincidunt sit amet magna. Quisque vehicula tellus et massa porttitor, ultrices rhoncus turpis vulputate. Duis nec feugiat mauris, id elementum turpis. Donec eget elementum felis. Phasellus in elementum nibh, ut aliquet ipsum. Vestibulum congue porttitor nunc ut sodales. Pellentesque placerat sollicitudin lorem, nec iaculis urna semper ut. Aenean auctor, nibh ac tempus faucibus, velit urna eleifend risus, id viverra est eros vitae nisi.</p>
             </div>
             <div className={classes.images}>
                 <div

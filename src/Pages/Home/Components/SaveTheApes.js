@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/styles';
 import { createMuiTheme } from '@material-ui/core/styles';
-import lost from '../../../Assets/Images/Question Mark/background.png';
+import lost from '../../../Assets/Images/bishopbd-attachments/photo_2021-11-22_09-04-36.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -39,10 +39,8 @@ const useStyles = makeStyles({
             },
         },
         '& .div':{
-            backgroundColor: '#0d5b4d',
-            padding: '1px 20px 5px 20px',
+            backgroundColor: '#191936',
             borderRadius: '15px',
-            marginBottom: '25px'
         },
     },
 })
@@ -60,11 +58,8 @@ function SaveTheApes() {
             data-aos-anchor-placement="top-center"
         >
             <div className='div'>
-                <h1>Save the Apes</h1>
-                <p>On the 26th of May 2016, our beloved, great Western Lowland gorilla Harambe, was fatally shot by zookeepers after a human child fell into his enclosure and he went to inspect the child. This caused widespread grief and anger as many believed that Harambe meant no harm to the child and did not have to die that day.</p>
-                <p>After the tragic death of the alpha male Harambe, thousands of baby gorillas were left without their leader & parent, leaving them stranded, alone and lost.</p>
-                <p>We need you to help these Lost Apes find a new home. Adopt these Lost Apes and help keep Harambe’s babies and his legacy alive.</p>
-                <p></p>
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta ipsum vitae egestas gravida. Aliquam rutrum tempus lorem et feugiat. Nulla sit amet luctus purus, vitae convallis felis. Praesent enim dolor, ultrices eget aliquet nec, tincidunt sit amet magna. Quisque vehicula tellus et massa porttitor, ultrices rhoncus turpis vulputate. Duis nec feugiat mauris, id elementum turpis. Donec eget elementum felis. Phasellus in elementum nibh, ut aliquet ipsum. Vestibulum congue porttitor nunc ut sodales. Pellentesque placerat sollicitudin lorem, nec iaculis urna semper ut. Aenean auctor, nibh ac tempus faucibus, velit urna eleifend risus, id viverra est eros vitae nisi. Aenean auctor, nibh ac tempus faucibus, velit urna eleifend risus, id viverra est eros vitae nisi.</p>
             </div>
             <div>
                 <img src={lost} alt='' />    

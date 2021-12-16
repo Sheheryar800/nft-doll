@@ -34,8 +34,9 @@ function FAQ() {
                     data-aos-once="false"
                     data-aos-anchor-placement="top-center"
                 >
-                    <h2>How to mint / buy lost apes?</h2>
-                    <p>Download MetaMask or another Web3 wallet to chrome or your mobile device. Load your wallet with ETH, connect wallet to the website and click the mint button. Approve the transaction in the popup, when the transaction is confirmed, the NFT will be in your wallet.</p>
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h2>
+                    <p>Nulla et ligula sit amet justo egestas molestie.</p>
+                    <p>Vivamus efficitur augue vel ex molestie, in dignissim neque elementum.</p>
                 </div>
                 <div
                     data-aos="fade-in"
@@ -45,8 +46,9 @@ function FAQ() {
                     data-aos-once="false"
                     data-aos-anchor-placement="top-center"
                 >
-                    <h2>How much do they cost and what is the total supply?</h2>
-                    <p>The total supply of the Lost Apes collection is 7000. The drops will be available in two stages, the first being 0.07 eth, released before the game. The second drop will be a slightly higher price, as they will be released after the game is out.</p>
+                    <h2>Etiam finibus ante non cursus tempus?</h2>
+                    <p>Vestibulum sit amet tortor pulvinar, suscipit libero eleifend, lobortis arcu.</p>
+                    <p>Sed sollicitudin mauris sit amet risus volutpat, id sodales tortor elementum.</p>
                 </div>
                 <div
                     data-aos="fade-in"
@@ -56,8 +58,9 @@ function FAQ() {
                     data-aos-once="false"
                     data-aos-anchor-placement="top-center"
                 >
-                    <h2>Does it cost a lot of gas for claiming and minting?</h2>
-                    <p>There is of course a gas fee when minting NFT’s, however you’ll only have to pay it once. If the price is too high for you, you can wait for a time when the Ethereum gas fees are lower.</p>
+                    <h2>Integer rutrum nisi vel dui tincidunt, sed ornare tellus porta?</h2>
+                    <p>Aenean imperdiet nulla eget quam porttitor malesuada.</p>
+                    <p>Maecenas ac ex venenatis, iaculis nisi et, eleifend lacus.</p>
                 </div>
                 <div
                     data-aos="fade-in"
@@ -67,8 +70,9 @@ function FAQ() {
                     data-aos-once="false"
                     data-aos-anchor-placement="top-center"
                 >
-                    <h2>What is the game about and how will it work?</h2>
-                    <p>The game will use a community pot of funds to reward those who look after and nurture their apes, in Ethereum. Therefore, the game will primarily be based around raising your apes from babies to adulthood. If they are raised with care, you will earn money and maybe your NFT will even have a new baby! Stay tuned as we drop updates and teasers of what’s to come.</p>
+                    <h2>Vestibulum dignissim justo quis augue fermentum efficitur?</h2>
+                    <p>Nam accumsan magna sed lectus fringilla, a dapibus ante ornare.</p>
+                    <p>Nam imperdiet sapien vel nisi hendrerit, eget accumsan nunc accumsan.</p>
                 </div>
             </div>
         </div>
